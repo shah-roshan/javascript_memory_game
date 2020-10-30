@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- Roshan shah, roshanrupeshkumarshah@gmail.com
+    This application provides a form to the user and then displays a game on screen to engage the user . It uses 
+    javascript , html and css to perform the task.
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Assignment2</title>
+    <!--<link href="" ref="stylesheet">-->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+        <div class="help" id="helpButton">Help</div>
+    <div id="formFrame"><h1>Animal Puzzle Generator</h1>
+    <h3>Please fill in the form to generate the puzzle!</h3>
+    <form id="myForm">
+        <label>PlayerName</label>
+        <input type="text" id="name"  required>
+        <br>
+        <label>Age</label>
+        <input type="number" id="age" min="3" max="79" required>
+        <br>
+        <label>Color</label>
+        <input type="color" id="color" value=#ADFF2F>
+        <br>
+        <input type ="button" id="generatePuzzle" value="Generate Puzzle!!">
+       
+  
+       
+    </form>
+</div>
+    <p id="warning"></p>
+    <div class="new" id="user"></div>
+    <div class="attemptsLeft" id="attempt"></div>
+<div id="puzzleFrame">
+    <table id="gameTable">
+        <tr id="row1">
+            <td><img src="images/main.jpg" id="p1"> </td>
+            <td> <img src="images/main.jpg" id="p2"></td>
+            <td> <img src="images/main.jpg" id="p3"></td>
+
+        </tr>
+        <tr>
+            <td> <img src="images/main.jpg" id="p4"></td>
+            <td> <img src="images/main.jpg" id="p5"></td>
+            <td> <img src="images/main.jpg" id="p6"></td>
+
+
+        </tr>
+        <tr>
+            <td> <img src="images/main.jpg" id="p7"></td>
+            <td> <img src="images/main.jpg" id="p8"></td>
+            <td> <img src="images/main.jpg" id="p9"></td>
+
+        </tr>
+        <tr>
+            <td ><img src="images/main.jpg" id="p10"></td>
+            <td ><img src="images/main.jpg" id="p11"></td>
+            <td ><img src="images/main.jpg" id="p12"></td>
+
+        </tr>
+    </table>
+</div>
+
+
+
+
+    <script src="js/Main.js">
+
+    </script>
+
+</body>
+
+</html>

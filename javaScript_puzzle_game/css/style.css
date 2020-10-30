@@ -1,0 +1,180 @@
+/**
+css by Roshan Shah, roshanrupeshkumarshah@gmail.com
+**/
+.help{
+            background-color :azure;
+            color:red;
+            width:70px;
+            display: none;
+            font-size: 29px;
+          position:absolute;
+            left:20px;
+            top:4.6in;
+            font-weight:bold;
+        
+        }
+        .helpChanged{
+            background-color :azure;
+            color:red;
+            width:70px;
+         
+            font-size: 19px;
+          position:absolute;
+            left:20px;
+            top:4.6in;
+            font-weight:normal;
+        }
+       
+        body{
+            background-image: url("../images/frame.jpg");
+            background-repeat:repeat-y;
+	   background-size:cover; 
+       color:ivory;
+        }
+       
+
+       
+
+        #gameTable {
+          
+            border:20px solid greenyellow;
+           margin-left:25%;
+         position: absolute;
+           width:50%;
+           height:150px;
+           table-layout: fixed;
+        
+        }
+       td{
+           height:110px;
+           position: relative;
+           padding:5px;
+        
+       }
+        td img{
+            height:100%;
+            width:100%;
+        }
+        .setPictureInFrame img{
+            height:100%;
+            width:100%;
+
+        }
+        .Message{
+            font-family:cursive;
+            font-size:50px;
+            font-weight: bold;
+            color:aqua;
+            text-align: center;
+           
+
+        }
+        #formFrame{
+            margin-left: 25%;
+            margin-right:25%;
+            border:15px solid rgb(179, 245, 179);
+           
+            font-family: cursive;
+            font-size: 16px;
+            padding-left:30px;
+            padding-right:50px;
+
+        }
+        #formFrame h1{
+            text-align: center;
+        }
+        
+       
+        input[type=text]{
+            width:120px;
+            float:right;
+            margin-left:0.5in;
+        }
+        input[type=number]{
+            float:right;
+            margin-left:1.05in;
+        }
+        input[type=color]{
+           
+            float:right;
+            margin-left:3.05in;
+        
+        }
+        input[type=button]{
+            margin-left:35%;
+        }
+        #puzzleFrame{
+            margin-top:50px;
+           
+            
+        }
+       
+        .new{
+           margin-left:25%;
+           margin-right:25%;
+            width:100px;
+            font-size:10px;
+          
+            
+            visibility: hidden;
+            background-color: lightgoldenrodyellow;
+            color:red;
+        }
+        .newChanged{
+           text-align:center;
+          width:100%;
+         
+            font-size:10px;
+            
+            font-size: 25px;
+            visibility: visible;
+            background-color: lightgoldenrodyellow;
+            color:red;
+       
+        }
+        .attemptsLeft{
+            text-align:center;
+          width:100%;
+         
+            font-size:10px;
+            
+            font-size: 25px;
+            visibility: visible;
+            background-color: lightgoldenrodyellow;
+            color:red;
+        }
+        /* portrait phone (= 320px) */
+@media screen and (max-width:20em) {
+    #formFrame{
+        resize:both;
+        width:200px;
+            margin-left: 25%;
+            margin-right:25%;
+            border:5px solid rgb(179, 245, 179);
+            padding:25px;
+            font-family: cursive;
+            font-size: 5px;
+            padding-left:70px;
+            padding-right:80px;
+          
+            
+
+        }
+        #formFrame h1{
+            text-align: center;
+        }
+        body{
+            background-image:cover;
+            background-repeat: repeat-y;
+        }
+     
+
+       
+      
+      
+
+
+	
+
+}
+        
